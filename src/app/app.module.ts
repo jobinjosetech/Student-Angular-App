@@ -14,8 +14,20 @@ import { DeleteStudentComponent } from './delete-student/delete-student.componen
 const myRoutes:Routes = [
   {
     path:"",
+    component:ViewStudentComponent
+  },
+  {
+    path:"add",
     component:StudentEntryComponent
-  }
+  },
+  {
+    path:"edit",
+    component:EditStudentComponent
+  },
+  {
+    path:"delete",
+    component:DeleteStudentComponent
+  },
 ]
 
 @NgModule({

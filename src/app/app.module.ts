@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ViewStudentComponent } from './view-student/view-student.component';
 import { SearchStudentComponent } from './search-student/search-student.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
+import { DeleteStudentComponent } from './delete-student/delete-student.component';
 
 const myRoutes:Routes = [
   {
@@ -24,7 +25,8 @@ const myRoutes:Routes = [
     NavbarComponent,
     ViewStudentComponent,
     SearchStudentComponent,
-    EditStudentComponent
+    EditStudentComponent,
+    DeleteStudentComponent
   ],
   imports: [
     BrowserModule,

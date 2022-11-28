@@ -8,6 +8,7 @@ import { StudentEntryComponent } from './student-entry/student-entry.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ViewStudentComponent } from './view-student/view-student.component';
 import { SearchStudentComponent } from './search-student/search-student.component';
+import { EditStudentComponent } from './edit-student/edit-student.component';
 
 const myRoutes:Routes = [
   {
@@ -22,7 +23,8 @@ const myRoutes:Routes = [
     StudentEntryComponent,
     NavbarComponent,
     ViewStudentComponent,
-    SearchStudentComponent
+    SearchStudentComponent,
+    EditStudentComponent
   ],
   imports: [
     BrowserModule,
